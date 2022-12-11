@@ -10,9 +10,6 @@ def perfect(i):
 def main():
     i=1
     count=0
-    print('nr de elemente cautate:')
-    nr=input()
-    print('\n')
     while (count < 4):
         i += 1
         if perfect(i) == i:
