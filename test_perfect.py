@@ -11,6 +11,9 @@ def test_perfect3():
     
 def test_perfect4():
     assert perfect(8128) == 8128    
+
+def test_perfect5():
+    assert perfect(33550336) == 33550336
     
     
     
