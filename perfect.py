@@ -13,7 +13,7 @@ def main():
     print('nr de elemente cautate:')
     nr=input()
     print('\n')
-    while (count < int(nr)):
+    while (count < 4):
         i += 1
         if perfect(i) == i:
             count += 1
