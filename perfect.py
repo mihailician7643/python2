@@ -10,7 +10,7 @@ def perfect(i):
 def main():
     i=1
     count=0
-    while (count < 4):
+    while (count < 2):
         i += 1
         if perfect(i) == i:
             count += 1
